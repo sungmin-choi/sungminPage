@@ -1,14 +1,28 @@
 extends layouts/index
 block content
     section#home
-        .flex 풀스택 웹 개발자 최성민 입니다.
-    .aboutBlock
-        h1 About
-    .skillBlock
-    .projectBlock
-        h1 projects
-    .contactBlock
-        h1 contact
-    
+        .title 프론트엔드 개발자 최성민 입니다.
+        .Btn_pageAbout 자세히 보기
+    section#navigatorBar
+        #HomeBtn.naviBtn HOME
+        #AboutBtn.naviBtn ABOUT
+        #SkillBtn.naviBtn SKILL
+        #ProjectBtn.naviBtn PROJECTS
+        #ContactBtn.naviBtn CONTACT
+    section.main
+        section.aboutBlock.header
+            .menuTitle#about  ABOUT
+                .lineblock
+        section.skillBlock.header
+            .menuTitle SKILL
+                .lineblock
+        section.projectBlock.header
+            .menuTitle PROJECTS
+                .lineblock
+        section.contactBlock.header
+            .menuTitle CONTACT
+                .lineblock
+            
+        
 
 
