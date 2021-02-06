@@ -3,6 +3,7 @@ import "core-js"
 
 const app = express();
 const router = express.Router();
+app.use("/img", express.static("img"));
 app.use("/", router);
 app.set('view engine', 'pug'); 
 router.get("/", (req, res) => {

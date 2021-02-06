@@ -1,7 +1,7 @@
 extends layouts/index
 block content
     section#home
-        .title 프론트엔드 개발자 최성민 입니다.
+        .title 풀스택 웹개발자 최성민 입니다.
         .Btn_pageAbout 자세히 보기
     section#navigatorBar
         #HomeBtn.naviBtn HOME
@@ -13,15 +13,80 @@ block content
         section.aboutBlock.header
             .menuTitle#about  ABOUT
                 .lineblock
+                .aboutInfor
+                    .profile
+                        img(class='profileImg',src=`/img/profile2.PNG`, alt="")
+                    .Introduce 
+                        h1 꾸준한 개발자
+                        span  Javascript와 python  가지고 있는 가능성과 다양성에 매력을 느끼게 되어 프론트엔드 개발자 준비중입니다.
+                        span  협업을 중심으로 생각하는 개발자 가 되고싶어 열심히 성장중인 개발자 입니다.
+                        span   계속해서 완성도 높은 개발을 위해 매일 고민하고 공부하는걸 즐거워 하는 개발자가 되도록 하겠습니다. 잘부탁드립니다.
+
         section.skillBlock.header
             .menuTitle SKILL
                 .lineblock
+                .skillInfor
+                    .language
+                        ul LANGUAGE
+                            li 
+                                .div#javascript javascript
+                            li 
+                                .div#python python   
+                            li 
+                                .div#C C
+                    .framework
+                        ul FRAMEWORK 
+                            li
+                                .div#nodejs Node.js 
+                            li 
+                                .div#reactjs React.js 
+                            li 
+                                .div#django django 
+                    .databace
+                        ul DATABACE 
+                            li 
+                                .div#mongodb mongodb
         section.projectBlock.header
             .menuTitle PROJECTS
                 .lineblock
+                .projects 
+                    .project
+                        img(class="projectimg",src="/img/project1.PNG", alt="")
+                        
+                    .project
+                        img(class="projectimg",src="/img/project2.PNG", alt="")
+                        
+                    .project
+                        img(class="projectimg",src="/img/project3.PNG", alt="")
+                        
+                    .project
+                        img(class="projectimg",src="/img/project4.PNG", alt="")
+                    .project
+                        img(class="projectimg",src="/img/project2.PNG", alt="")
+                    .project
+                        img(class="projectimg",src="/img/project1.PNG", alt="")
+                    .project
+                        img(class="projectimg",src="/img/project4.PNG", alt="")
+                    .project
+                        img(class="projectimg",src="/img/project3.PNG", alt="")
+                    .project
+                        img(class="projectimg",src="/img/project2.PNG", alt="")                   
+                    
+
+
+                                           
+
         section.contactBlock.header
             .menuTitle CONTACT
                 .lineblock
+                .contactInfor 
+                    .email Email: namja306@naver.com
+                    .phone Phone: 010-5062-4408
+                    a(href="https://github.com/sungmin-choi")
+                        i.fab.fa-github-square.fa-lg
+                        span   contact with github  
+
+
             
         
 

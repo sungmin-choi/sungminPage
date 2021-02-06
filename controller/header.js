@@ -88,7 +88,7 @@ function ToggleHeader(currentPosValue)
         ContactBtn.style.color="#FEFEFE";
       }else
       {
-        if(currentPosValue<t4-60){
+        if(currentPosValue<t4-550){
         HomeBtn.style.color="#FEFEFE";
         AboutBtn.style.color="#FEFEFE";
         SkillBtn.style.color="#FEFEFE";

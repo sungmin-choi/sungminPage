@@ -3,7 +3,6 @@ html {
   margin: 0;
   padding: 0;
   border: 0;
-  height: 4000px;
 }
 * {
   text-decoration: blink;
@@ -32,6 +31,7 @@ html {
   width: 100%;
 }
 #navigatorBar {
+  font-family: "Pangolin", cursive;
   width: 100%;
   display: flex;
   background-color: #1b242f;
@@ -46,6 +46,23 @@ html {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 100;
+}
+
+ul {
+  list-style: none;
+  font-size: 60px;
+  margin-right: 90px;
+}
+.skillInfor {
+  display: flex;
+  flex-direction: row;
+}
+li {
+  font-size: 50px;
+  margin-top: 30px;
+  border: #45474a solid 5px;
+  border-radius: 20px;
 }
 .naviBtn {
   margin-left: 13px;
@@ -78,8 +95,9 @@ html {
   color: #f7941f !important;
 }
 .header {
+  font-family: "Pangolin", cursive;
   margin-top: 15px;
-  height: 500px;
+  height: 900px;
 }
 .Btn_pageAbout {
   margin-top: 30px;
@@ -93,4 +111,115 @@ html {
 .Btn_pageAbout:hover {
   background-color: #04c2c9;
   border: 3px solid #04c2c9;
+}
+span {
+  font-size: 25px;
+}
+.Introduce {
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 150px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.profileImg {
+  border-radius: 30%;
+  width: 250px;
+  height: 240px;
+  border: 5px solid;
+}
+.aboutInfor {
+  display: flex;
+}
+.contactInfor {
+  margin-top: 70px;
+}
+.email,
+.phone {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+a {
+  color: #1b242f;
+  transition: color 0.5s;
+}
+a:hover {
+  color: #f7941f;
+}
+.contactBlock {
+  height: 400px;
+}
+.footer {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b242f;
+}
+.footer__text {
+  font-family: "Pangolin", cursive;
+  color: #f5f5f5;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+#javascript,
+#C,
+#python,
+#nodejs,
+#reactjs,
+#django,
+#mongodb {
+  position: relative;
+  border-radius: 14px 4px 4px 14px;
+}
+#javascript {
+  width: 50%;
+  background-color: #efd81c;
+}
+#C {
+  width: 40%;
+  background-color: #005697;
+}
+#python {
+  width: 80%;
+  background-color: #4987b8;
+}
+#nodejs {
+  width: 60%;
+  background-color: #659b60;
+}
+#reactjs {
+  width: 20%;
+  background-color: #5dd3f3;
+}
+#django {
+  width: 40%;
+  background-color: #2ba977;
+}
+#mongodb {
+  width: 30%;
+  background-color: #559134;
+}
+.projects {
+  margin-top: 100px;
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 1200px;
+}
+.project {
+  width: 400px;
+  height: 300px;
+}
+.projectBlock {
+  height: 1100px;
+}
+.projectimg {
+  width: 400px;
+  height: 300px;
 }
