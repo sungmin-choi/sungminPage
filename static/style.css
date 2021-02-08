@@ -9,7 +9,6 @@ html {
 }
 .header {
   display: flex;
-
   justify-content: center;
 }
 .title {
@@ -22,9 +21,9 @@ html {
   justify-content: space-around;
 }
 #home {
+  font-family: "Jua", sans-serif;
   display: flex;
   height: 100vh;
-  background-color: teal;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -97,7 +96,7 @@ li {
 .header {
   font-family: "Pangolin", cursive;
   margin-top: 15px;
-  height: 900px;
+  height: 1000px;
 }
 .Btn_pageAbout {
   margin-top: 30px;
@@ -116,6 +115,7 @@ span {
   font-size: 25px;
 }
 .Introduce {
+  font-family: "Jua", sans-serif;
   display: flex;
   width: 800px;
   justify-content: center;
@@ -213,13 +213,57 @@ a:hover {
   width: 1200px;
 }
 .project {
-  width: 400px;
-  height: 300px;
+  width: 390px;
+  height: 290px;
+  background-size: auto;
 }
 .projectBlock {
-  height: 1100px;
+  height: 1400px;
 }
 .projectimg {
-  width: 400px;
-  height: 300px;
+  width: 390px;
+  height: 290px;
+}
+.projectInfo {
+  display: flex;
+  position: absolute;
+  width: 390px;
+  height: 290px;
+  background-color: #ffffff;
+  opacity: 0;
+  transition: opacity 1s;
+  flex-direction: column;
+  align-items: center;
+}
+.projectInfo:hover {
+  opacity: 1;
+}
+.golink {
+  display: flex;
+  font-size: 25px;
+  height: 40px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  border: #45474a 2px solid;
+}
+#projectTitle {
+  margin: 25px;
+  font-size: 50px;
+}
+#projectSkill {
+  margin-bottom: 20px;
+  color: #f7941f;
+}
+.agolink {
+  font-family: "Jua", sans-serif;
+  transition: background-color 1s;
+}
+.agolink:hover {
+  background-color: #f7941f;
+  color: #1b242f;
+}
+#canvas {
+  height: 100%;
+  width: 100%;
 }

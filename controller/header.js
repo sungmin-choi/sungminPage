@@ -22,7 +22,7 @@ function f1(n){
     })
   }else{
     window.scrollTo({
-      top:t-115,
+      top:t-119,
       behavior: 'smooth'
     })
   }
@@ -36,7 +36,7 @@ function scrollto1(){
     })
   }else{
     window.scrollTo({
-      top:t-107,
+      top:t-104,
       behavior: 'smooth'
     })
   }
@@ -116,8 +116,6 @@ const myfunction = () => {
     }else{
         header.classList.remove("sticky");
     }
-    console.log(scrollPosition);
-    console.log(t2);
     ToggleHeader(scrollPosition);
 
     }
