@@ -66,7 +66,7 @@ t3=document.getElementsByClassName("menuTitle")[2].offsetTop-55;
 t4=document.getElementsByClassName("menuTitle")[3].offsetTop-55;
 function ToggleHeader(currentPosValue)
 {
-  if(currentPosValue<940){
+  if(currentPosValue<800){
     HomeBtn.style.color="#f7941f";
     AboutBtn.style.color="#FEFEFE";
     SkillBtn.style.color="#FEFEFE";
